@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banderas con SVG</title>
+    <style>
+        section{
+            display: inline-block;
+        }
+        
+        .rejilla {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; /* dos columnas iguales */
+                width: 90%;                     /* ocupa el 90% del ancho */
+                margin: 0 auto;                 /* centrada en la pantalla */
+                gap: 12px;                      /* espacio entre columnas */
+                }
+        .bandera{
+                background-color: rgb(242, 248, 248);
+                color: black;
+                border-radius: 8px;
+                text-align: center;
+                border: 1px solid rgba(0, 0, 0, 0.22);
+                min-height: 200px;              /* altura mínima */
+                padding: 20px; 
+                }
+        svg{
+
+            box-shadow: 2px 2px 6px 4px rgb(78, 74, 74);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Banderas del mundo con vectores SVG</h1>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <div class="rejilla">
+                <div class="bandera">
+                <h2>Francia</h2>
+                <svg width="150" height="100" viewbox="0 0 6 4">
+                    <!-- svg si necesita especificar que la etiqueta debe cerrarce, para eso se coloca la diagonal -->
+                    <rect width="2" height="4" x="0" y="0" fill="#002654" />
+                    <!-- <rect width="2" height="4" x="2" y="0" fill="#000000" /> -->
+                    <rect width="2" height="4" x="4" y="0" fill="#ED2939" />
+                </svg>
+            </div>
+            <div class="bandera">
+                <h2>Holanda</h2>
+                <svg width="150" height="100" viewbox="0 0 6 4">
+                    <!-- svg si necesita especificar que la etiqueta debe cerrarce, para eso se coloca la diagonal -->
+                    <rect width="6" height="1.3333" x="0" y="0" fill="#AE1C28" />
+                    <!-- <rect width="2" height="4" x="2" y="0" fill="#000000" /> -->
+                    <rect width="6" height="1.3333" x="0" y="2.7" fill="#21468B" />
+                </svg>
+            </div>
+            <div class="bandera">
+                <h2>Colombia</h2>
+                <svg width="150" height="100" viewbox="0 0 6 4">
+                    <!-- svg si necesita especificar que la etiqueta debe cerrarce, para eso se coloca la diagonal -->
+                    <rect width="6" height="2" x="0" y="0" fill="#FCD116" />
+                    <rect width="6" height="1" x="0" y="2" fill="#0038A8" />
+                    <rect width="6" height="1" x="0" y="3" fill="#CE1126" />
+                </svg>
+            </div>
+            <div class="bandera">
+                <h2>Suiza</h2>
+                <svg width="150" height="100" viewbox="0 0 5 5">
+                    <rect width="5" height="5" x="0" y="0" fill="#FF0000" />
+                    <polygon points="
+                        2,1 ,3,1 ,3,2 ,4,2 ,4,3 ,3,3 ,3,4 ,2,4, 2,3, 1,3, 1,2, 2,2
+                    " fill="#FFFFFF">
+            </div>
+            <div class="bandera">
+                <h2>Japón</h2>
+                <svg width="150" height="100" viewbox="0 0 6 4">
+                    <rect width="6" height="4" x="0" y="0" fill="#FFFFFF" />
+                    <circle cx="3" cy="2" r="1" fill="#FF0000">
+            </div>
+            <div class="bandera">
+                <h2>Vietnam</h2>
+                <svg width="150" height="100" viewbox="0 0 6 4">
+                    <rect width="6" height="4" x="0" y="0" fill="#FF0000" />
+                    <!-- <polygon points="
+                                    3,0.9,3.2,1.7,3.9,1.7,3.3,2.3,3.6,3.1,3,2.6,2.4,3.1,2.6,2.3,2,1.7,2.7,1.7"    
+                    fill="#FFFF00"> -->
+                    <polygon points="
+                                    1.42658477444273,0.463525491562421,0.570633909777092,-0.185410196624968,
+                                    0.88167787843871,-1.21352549156242,7.35089072945172E-17,-0.6,
+                                   -0.88167787843871,-1.21352549156242,-0.570633909777092,-0.185410196624969,
+                                   -1.42658477444273,0.463525491562421,-0.352671151375484,0.485410196624968,
+                                    -3.67544536472586E-16,1.5,0.352671151375484,0.485410196624969,
+
+
+                                    "    
+                    fill="#FFFF00" transform="translate(3 2) rotate(36) scale(1)"/>
+            </div>
+            <div class="bandera">
+                <h2>Brasil</h2>
+                <svg width="150" height="100" viewbox="0 0 6 4">
+                    <rect width="6" height="4" x="0" y="0" fill="#009440" />
+                    <polygon points="
+                                    2.95,0.6,5.5,2.1,2.95,3.55,0.6,2.1"    
+                    fill="#FFCB00"/>
+                    <circle cx="3" cy="2" r="1" fill="#302681"/>
+            </div>
+            <div class="bandera">
+                <h2>Botsuana</h2>
+                <svg width="150" height="100" viewbox="0 0 6 4">
+                    <!-- svg si necesita especificar que la etiqueta debe cerrarce, para eso se coloca la diagonal -->
+                    <rect width="6" height="1.4" x="0" y="0" fill="#6DA9D2" />
+                    <rect width="6" height="0.2" x="0" y="1.4" fill="#FFFFFF" />
+                    <rect width="6" height="1" x="0" y="1.6" fill="#000000" />
+                    <rect width="6" height="0.2" x="0" y="2.6" fill="#FFFFFF" />
+                    <rect width="6" height="1.4" x="0" y="2.8" fill="#6DA9D2" />
+                    <!-- <rect width="6" height="0" x="0" y="3" fill="#CE1126" /> -->
+                </svg>
+            </div>
+            <div class="bandera">
+                <h2>Benin</h2>
+                <svg width="150" height="100" viewbox="0 0 6 4">
+                    <!-- svg si necesita especificar que la etiqueta debe cerrarce, para eso se coloca la diagonal -->
+                    <rect width="2" height="4" x="0" y="0" fill="#008751" />
+                    <rect width="4" height="2" x="2" y="0" fill="#FCD116" />
+                    <rect width="4" height="2" x="2" y="2" fill="#E8112D" />
+                </svg>
+            </div>
+            <div class="bandera">
+                <h2>Bolibia</h2>
+                <svg width="150" height="100" viewbox="0 0 6 4">
+                    <!-- svg si necesita especificar que la etiqueta debe cerrarce, para eso se coloca la diagonal -->
+                    <rect width="6" height="1.3333" x="0" y="0" fill="#E52A26" />
+                    <rect width="6" height="1.3333" x="0" y="1.333" fill="#F9E220" />
+                    <rect width="6" height="1.3333" x="0" y="2.7" fill="#13A144" />
+                </svg>
+            </div>
+            <div class="bandera">
+                <h2>China</h2>
+                <svg width="150" height="100" viewbox="0 0 6 4">
+                    <rect width="6" height="4" x="0" y="0" fill="#FF0000" />
+                    <polygon points="
+                                    1.42658477444273,0.463525491562421,0.570633909777092,-0.185410196624968,
+                                    0.88167787843871,-1.21352549156242,7.35089072945172E-17,-0.6,
+                                   -0.88167787843871,-1.21352549156242,-0.570633909777092,-0.185410196624969,
+                                   -1.42658477444273,0.463525491562421,-0.352671151375484,0.485410196624968,
+                                    -3.67544536472586E-16,1.5,0.352671151375484,0.485410196624969,           
+                    "    
+                    fill="#FFFF00" transform="translate(1 1) rotate(36) scale(0.4)"/>
+                    <polygon points="
+                                    1.42658477444273,0.463525491562421,0.570633909777092,-0.185410196624968,
+                                    0.88167787843871,-1.21352549156242,7.35089072945172E-17,-0.6,
+                                   -0.88167787843871,-1.21352549156242,-0.570633909777092,-0.185410196624969,
+                                   -1.42658477444273,0.463525491562421,-0.352671151375484,0.485410196624968,
+                                    -3.67544536472586E-16,1.5,0.352671151375484,0.485410196624969,           
+                    "    
+                    fill="#FFFF00" transform="translate(1.8 0.4) rotate(72) scale(0.1)"/>
+                    <polygon points="
+                                    1.42658477444273,0.463525491562421,0.570633909777092,-0.185410196624968,
+                                    0.88167787843871,-1.21352549156242,7.35089072945172E-17,-0.6,
+                                   -0.88167787843871,-1.21352549156242,-0.570633909777092,-0.185410196624969,
+                                   -1.42658477444273,0.463525491562421,-0.352671151375484,0.485410196624968,
+                                    -3.67544536472586E-16,1.5,0.352671151375484,0.485410196624969,           
+                    "    
+                    fill="#FFFF00" transform="translate(2.1 0.8) rotate(79) scale(0.1)"/>
+                    <polygon points="
+                                    1.42658477444273,0.463525491562421,0.570633909777092,-0.185410196624968,
+                                    0.88167787843871,-1.21352549156242,7.35089072945172E-17,-0.6,
+                                   -0.88167787843871,-1.21352549156242,-0.570633909777092,-0.185410196624969,
+                                   -1.42658477444273,0.463525491562421,-0.352671151375484,0.485410196624968,
+                                    -3.67544536472586E-16,1.5,0.352671151375484,0.485410196624969,           
+                    "    
+                    fill="#FFFF00" transform="translate(2.1 1.2) rotate(40) scale(0.1)"/>
+                    <polygon points="
+                                    1.42658477444273,0.463525491562421,0.570633909777092,-0.185410196624968,
+                                    0.88167787843871,-1.21352549156242,7.35089072945172E-17,-0.6,
+                                   -0.88167787843871,-1.21352549156242,-0.570633909777092,-0.185410196624969,
+                                   -1.42658477444273,0.463525491562421,-0.352671151375484,0.485410196624968,
+                                    -3.67544536472586E-16,1.5,0.352671151375484,0.485410196624969,           
+                    "    
+                    fill="#FFFF00" transform="translate(1.8 1.6) rotate(40) scale(0.1)"/>
+                </svg>
+            </div>
+            <div class="bandera">
+                <h2>Chile</h2>
+                <svg width="150" height="100" viewbox="0 0 6 4">
+                    <rect width="6" height="4" x="0" y="0" fill="#FF0000" />
+                     <rect width="2" height="2" x="0" y="0" fill="#0000FF" />
+                    <polygon points="
+                                    1.42658477444273,0.463525491562421,0.570633909777092,-0.185410196624968,
+                                    0.88167787843871,-1.21352549156242,7.35089072945172E-17,-0.6,
+                                   -0.88167787843871,-1.21352549156242,-0.570633909777092,-0.185410196624969,
+                                   -1.42658477444273,0.463525491562421,-0.352671151375484,0.485410196624968,
+                                    -3.67544536472586E-16,1.5,0.352671151375484,0.485410196624969,
+
+
+                                    "    
+                    fill="#FFFFFF" transform="translate(1 1) rotate(36) scale(0.5)"/>
+                    <rect width="4" height="2" x="2" y="0" fill="#FFFFFF" />
+
+                </svg>
+            </div>
+            <div class="bandera">
+                <h2>Cuba</h2>
+                <svg width="150" height="100" viewbox="0 0 6 4">
+                    <!-- <rect width="6" height="4" x="0" y="0" fill="#FF0000" /> -->
+                     <rect width="6" height="0.8" x="0" y="0" fill="#0000FF" />
+                     <rect width="6" height="0.8" x="0" y="0.8" fill="#FFFFFF" />
+                     <rect width="6" height="0.8" x="0" y="1.6" fill="#0000FF" />
+                     <rect width="6" height="0.8" x="0" y="3.2" fill="#0000FF" />
+
+                     <rect width="2" height="2" x="0" y="0" fill="#FF0000" transform="translate(0 0) rotate(45) scale(1.4)" />
+                    <polygon points="
+                                    1.42658477444273,0.463525491562421,0.570633909777092,-0.185410196624968,
+                                    0.88167787843871,-1.21352549156242,7.35089072945172E-17,-0.6,
+                                   -0.88167787843871,-1.21352549156242,-0.570633909777092,-0.185410196624969,
+                                   -1.42658477444273,0.463525491562421,-0.352671151375484,0.485410196624968,
+                                    -3.67544536472586E-16,1.5,0.352671151375484,0.485410196624969,
+
+
+                                    "    
+                    fill="#FFFFFF" transform="translate(0.8 2) rotate(36) scale(0.4)"/>
+                    
+                </svg>
+            </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <p>Todos los derechos reservados &copy; 2026 | TSJ | Cristian Rodriguez</p>
+    </footer>
+    
+</body>
+</html>
