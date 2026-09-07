@@ -6,12 +6,12 @@
     <title>Banderas con SVG</title>
     <style>
         section{
-            display: inline-block;
+            display: block;
         }
         
         .rejilla {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             width: 90%;
             margin: 0 auto;
             gap: 12px;
@@ -93,8 +93,17 @@
                     <h2>Brasil</h2>
                     <svg width="150" height="100" viewBox="0 0 6 4">
                         <rect width="6" height="4" x="0" y="0" fill="#009440" />
-                        <polygon points="2.95,0.6,5.5,2.1,2.95,3.55,0.6,2.1" fill="#FFCB00"/>
-                        <circle cx="3" cy="2" r="1" fill="#302681"/>
+                        <polygon points="3,0.5 5.5,2 3,3.5 0.5,2" fill="#FFCB00" />
+                        <circle cx="3" cy="2" r="1" fill="#302681" />
+                        <polygon points="2.0,2.15 3.98,1.8 4.0,1.95 2.02,2.3" fill="#FFFFFF" />
+                        <circle cx="3.0" cy="1.4" r="0.04" fill="#FFFFFF" />
+                        <circle cx="2.4" cy="2.3" r="0.03" fill="#FFFFFF" />
+                        <circle cx="2.6" cy="2.5" r="0.04" fill="#FFFFFF" />
+                        <circle cx="2.8" cy="2.2" r="0.03" fill="#FFFFFF" />
+                        <circle cx="3.0" cy="2.6" r="0.04" fill="#FFFFFF" />
+                        <circle cx="3.2" cy="2.4" r="0.03" fill="#FFFFFF" />
+                        <circle cx="3.5" cy="2.3" r="0.04" fill="#FFFFFF" />
+                        <circle cx="3.6" cy="2.6" r="0.03" fill="#FFFFFF" />
                     </svg>
                 </div>
                 <div class="bandera">
@@ -127,11 +136,31 @@
                     <h2>China</h2>
                     <svg width="150" height="100" viewBox="0 0 6 4">
                         <rect width="6" height="4" x="0" y="0" fill="#FF0000" />
-                        <polygon points="1.4265,0.4635, 0.5706,-0.1854, 0.8816,-1.2135, 0,-0.6, -0.8816,-1.2135, -0.5706,-0.1854, -1.4265,0.4635, -0.3526,0.4854, 0,1.5, 0.3526,0.4854" fill="#FFFF00" transform="translate(1 1) rotate(36) scale(0.4)"/>
-                        <polygon points="1.4265,0.4635, 0.5706,-0.1854, 0.8816,-1.2135, 0,-0.6, -0.8816,-1.2135, -0.5706,-0.1854, -1.4265,0.4635, -0.3526,0.4854, 0,1.5, 0.3526,0.4854" fill="#FFFF00" transform="translate(1.8 0.4) rotate(72) scale(0.1)"/>
-                        <polygon points="1.4265,0.4635, 0.5706,-0.1854, 0.8816,-1.2135, 0,-0.6, -0.8816,-1.2135, -0.5706,-0.1854, -1.4265,0.4635, -0.3526,0.4854, 0,1.5, 0.3526,0.4854" fill="#FFFF00" transform="translate(2.1 0.8) rotate(79) scale(0.1)"/>
-                        <polygon points="1.4265,0.4635, 0.5706,-0.1854, 0.8816,-1.2135, 0,-0.6, -0.8816,-1.2135, -0.5706,-0.1854, -1.4265,0.4635, -0.3526,0.4854, 0,1.5, 0.3526,0.4854" fill="#FFFF00" transform="translate(2.1 1.2) rotate(40) scale(0.1)"/>
-                        <polygon points="1.4265,0.4635, 0.5706,-0.1854, 0.8816,-1.2135, 0,-0.6, -0.8816,-1.2135, -0.5706,-0.1854, -1.4265,0.4635, -0.3526,0.4854, 0,1.5, 0.3526,0.4854" fill="#FFFF00" transform="translate(1.8 1.6) rotate(40) scale(0.1)"/>
+                        <polygon points="1.4265,0.4635, 0.5706,-0.1854, 0.8816,-1.2135,
+                                         0,-0.6, -0.8816,-1.2135, -0.5706,-0.1854,
+                                        -1.4265,0.4635, -0.3526,0.4854, 0,1.5, 
+                                        0.3526,0.4854" 
+                                        fill="#FFFF00" transform="translate(1 1) rotate(36) scale(0.4)"/>
+                        <polygon points="1.4265,0.4635, 0.5706,-0.1854,
+                                        0.8816,-1.2135, 0,-0.6, -0.8816,
+                                        -1.2135, -0.5706,-0.1854, -1.4265,
+                                        0.4635, -0.3526,0.4854, 0,1.5,
+                                         0.3526,0.4854" fill="#FFFF00" transform="translate(1.8 0.4) rotate(72) scale(0.1)"/>
+                        <polygon points="1.4265,0.4635, 0.5706,-0.1854, 
+                                        0.8816,-1.2135, 0,-0.6, -0.8816,
+                                        -1.2135, -0.5706,-0.1854, -1.4265,
+                                        0.4635, -0.3526,0.4854, 0,1.5, 
+                                        0.3526,0.4854" fill="#FFFF00" transform="translate(2.1 0.8) rotate(79) scale(0.1)"/>
+                        <polygon points="1.4265,0.4635, 0.5706,-0.1854, 
+                                        0.8816,-1.2135, 0,-0.6, -0.8816,
+                                        -1.2135, -0.5706,-0.1854, -1.4265,
+                                        0.4635, -0.3526,0.4854, 0,1.5, 0.3526,0.4854" 
+                                        fill="#FFFF00" transform="translate(2.1 1.2) rotate(40) scale(0.1)"/>
+                        <polygon points="1.4265,0.4635, 0.5706,-0.1854, 
+                                        0.8816,-1.2135, 0,-0.6, -0.8816,
+                                        -1.2135, -0.5706,-0.1854, -1.4265,
+                                        0.4635, -0.3526,0.4854, 0,1.5, 0.3526,0.4854" 
+                                        fill="#FFFF00" transform="translate(1.8 1.6) rotate(40) scale(0.1)"/>
                     </svg>
                 </div>
                 <div class="bandera">
@@ -139,7 +168,11 @@
                     <svg width="150" height="100" viewBox="0 0 6 4">
                         <rect width="6" height="4" x="0" y="0" fill="#FF0000" />
                         <rect width="2" height="2" x="0" y="0" fill="#0000FF" />
-                        <polygon points="1.4265,0.4635, 0.5706,-0.1854, 0.8816,-1.2135, 0,-0.6, -0.8816,-1.2135, -0.5706,-0.1854, -1.4265,0.4635, -0.3526,0.4854, 0,1.5, 0.3526,0.4854" fill="#FFFFFF" transform="translate(1 1) rotate(36) scale(0.5)"/>
+                        <polygon points="1.4265,0.4635, 0.5706,-0.1854, 0.8816,
+                                        -1.2135, 0,-0.6, -0.8816,-1.2135, -0.5706,
+                                        -0.1854, -1.4265,0.4635, -0.3526,0.4854, 
+                                        0,1.5, 0.3526,0.4854" 
+                                        fill="#FFFFFF" transform="translate(1 1) rotate(36) scale(0.5)"/>
                         <rect width="4" height="2" x="2" y="0" fill="#FFFFFF" />
                     </svg>
                 </div>
@@ -151,7 +184,11 @@
                         <rect width="6" height="0.8" x="0" y="1.6" fill="#0000FF" />
                         <rect width="6" height="0.8" x="0" y="3.2" fill="#0000FF" />
                         <rect width="2" height="2" x="0" y="0" fill="#FF0000" transform="translate(0 0) rotate(45) scale(1.4)" />
-                        <polygon points="1.4265,0.4635, 0.5706,-0.1854, 0.8816,-1.2135, 0,-0.6, -0.8816,-1.2135, -0.5706,-0.1854, -1.4265,0.4635, -0.3526,0.4854, 0,1.5, 0.3526,0.4854" fill="#FFFFFF" transform="translate(0.8 2) rotate(36) scale(0.4)"/>
+                        <polygon points="1.4265,0.4635, 0.5706,
+                                        -0.1854, 0.8816,-1.2135, 0,-0.6, -0.8816,
+                                        -1.2135, -0.5706,-0.1854, -1.4265,0.4635, 
+                                        -0.3526,0.4854, 0,1.5, 0.3526,0.4854" 
+                                        fill="#FFFFFF" transform="translate(0.8 2) rotate(36) scale(0.4)"/>
                     </svg>
                 </div>
             </div>
